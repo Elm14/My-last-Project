@@ -1,0 +1,362 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+nav{
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  top: 0;
+  background-color: white  ;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+nav  h2{
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 20px;
+  margin-left: 35px;
+  color: #957d95;
+}
+nav a{
+  text-decoration: none;
+}
+
+nav a h2:hover{
+  opacity: 0.9;
+}
+body{
+  background-color: #957d95;
+}
+#container{
+display: flex;
+justify-content: center;
+margin-top: 200px;
+flex-wrap: wrap;
+
+
+}
+.feed{  
+  float: right;
+  text-align: center;
+  display: flex;
+
+
+}
+.card{  
+  background: white;
+  width: 270px;
+  margin: 10px;
+  position: relative;
+  border-radius: 15px;
+
+}
+.card-image {
+  background-color: #eccfc3;
+  height: 170px;
+  margin-bottom:15px; 
+  border-top-right-radius: 10px;
+}
+.card h2{
+  margin-left: 10px;
+  padding: 10px;
+  color:#e49ab0;
+  text-decoration: underline;
+}
+.card p {
+  text-align: left;
+  margin-left: 20px;
+  padding: 10px;
+  margin-top: 10px;
+  text-transform: capitalize;
+  color: #957d95;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.massage-1 {
+  background-image: url(spa/asian-woman-receiving-shoulder-massage-on-table-scaled.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.massage-2{
+  background-image: url(spa/bigstock-deep-tissue-massage.jpg);
+  background-size: cover;
+}
+.massage-3{
+  background-image: url(spa/hot-stone-massage-GettyImages-1372664129-fecefea5f71c44f7aaeaf4ae5dbfcbe4.jpg);
+  background-size: cover;
+}
+.massage-4{
+  background-image: url(spa/Wisniewski-Chiropractic-05.26-Blog_.jpg);
+  background-size: cover;
+}
+.card a{
+  background-color: #e49ab0;
+  color: white;
+  padding: 15px;
+  border: none;
+  margin: 10px 70px;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+.card:hover{
+  background-color: rgb(177, 149, 177,0.5);
+  transform: scale(1.03);
+  transition:0.7s;
+  cursor: pointer;
+  color: white;
+}
+.card p:hover{
+  color: white;
+  transition: 0.7s;
+}
+hr{
+  margin-top: 20px;
+}
+
+#container2{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: white;
+}
+.onwan{
+
+color: #e49ab0;
+font-family: sans-serif;
+font-weight: bold;
+background-color: white;
+width: 100%;
+text-align: center;
+padding-top: 40px;
+font-size: 45px;
+}
+
+.card2{
+  background-color: #957d95;
+  width: 270px;
+  margin: 10px;
+  border-radius: 15px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.card-image2{
+  background-color: #e49ab0;
+  height: 170px;
+  margin-bottom: 15px;
+  border-top-left-radius: 10px;
+}
+.pic-1{
+  background-image: url(spa/what-is-hydrotherapy_e4a368e73aa250d70b46e0383600aae7.jpg);
+  background-size: cover;
+}
+.pic-2 {
+  background-image: url(spa/steam-room-18.jpg);
+  background-size: cover;
+}
+.pic-3{
+  background-image: url(spa/ayurvedic-healing-clay-massage-385x266.jpg);
+  background-size: cover;
+}
+.pic-4{
+  background-image: url(spa/Prims_Adv_facials_01.jpg);
+  background-size: cover;
+}
+.pic-5{
+  background-image: url(spa/Spa-pedicure-dover-de-1024x1024.jpg);
+  background-size: 100% 100%;
+}
+.card2 h2{
+  margin-left: 15px;
+  color: white;
+  text-decoration: underline;
+
+}
+
+.card2 p{
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.card2 a{
+  display: block;
+  background-color: #e49ab0;
+  padding: 15px;
+  margin: 20px 70px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  border-radius: 10px ;
+  font-family: sans-serif;
+}
+.Ftr{
+  color: white;
+  height: 200px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 100px;
+
+}
+#btiti{
+  margin-top: 50px;
+}
+.card2:hover {
+
+  background-color: rgba(190, 157, 190, 0.8);
+  color: white;
+  transform: scale(1.03);
+  transition: all 0.5s ease;
+  box-shadow: 7px 7px 29px black;
+
+}
+#S.m{
+  background-color: #957d95;
+}
+
+.st-m h2{ 
+  text-align: center;
+  padding: 30px 0;
+  color: white;
+  margin-top: 100px;
+}
+#st-n p{
+  font-size: 16px;
+  font-family: sans-serif;
+  justify-content: center;
+  text-align: left;
+  margin: 15px 150px;
+  line-height: 24px;
+}
+.st-n1 img{
+  width: 450px;
+  height: 350px;
+  margin-left: 165px;
+  margin-right: 20px;
+  margin-bottom: 500px ;
+  border-radius: 15px;
+  flex-wrap: wrap;
+  float: left;
+  border: 5px  solid #eccfc3 ;
+}
+.st-n1 h3{
+  margin-left: 180px;
+  color: #eccfc3;
+  text-decoration: underline;
+  padding-bottom: 0 ;
+  margin-bottom: 0;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .feed{
+  margin-right: 80px;
+  
+}
+nav .feed button{
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  background-color: #957d95;
+  font-family: sans-serif;
+}
+nav .feed button:hover{
+  background-color: #d1b3d1;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.st-n1 h4{
+  margin-left: 180px;
+color: #ecb8a5;
+}
+.st-n1 h2{
+  margin-left: 180px;
+  color: white;
+}
+.st-n1 span{
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #ecb8a5;
+}
+.rajli  {
+  height: 400px;
+  background-image: url(spa/asian-woman-receiving-shoulder-massage-on-table-scaled.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0;
+  bottom: 0;
+  opacity: 0.7;
+}
+.midini {
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #957d95;
+  text-align: center;
+  padding: 40px;
+}
+.midini a{
+  font-weight: bold;
+  text-decoration: none;
+  color: #957d95;
+}
+#elg{
+  background-color: white;
+  height: 500px;
+}
+#elg img{
+  width: 450px;
+  height: 350px;
+  margin-top: 70px;
+  margin-bottom: 80px;
+  border-radius: 15px;
+  flex-wrap: wrap;
+  float: right;
+  border: 5px  solid #eccfc3 ;
+  margin-right: 165px;
+}
+#elg h2{
+  margin-left: 160px;
+  color: #957d95;
+  padding-top: 20px;
+}
+#elg h3{
+  margin-left: 160px;
+  padding: 10px;
+  color: #ecb8a5;
+  text-decoration: underline;
+}
+#elg p{
+  margin-left: 160px;
+  font-size: 18px;
+  font-family: sans-serif ;
+}
